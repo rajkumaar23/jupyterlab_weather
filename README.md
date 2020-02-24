@@ -4,6 +4,8 @@
 
 To display the weather for a city given by the user
 
+## Screenshots
+![Image Preview](preview.jpg)
 
 ## Requirements
 
