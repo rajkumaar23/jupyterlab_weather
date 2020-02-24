@@ -34,6 +34,7 @@
     "@jupyterlab/application": "^1.2.1",
     "@jupyterlab/apputils": "^1.2.1",
     "@phosphor/widgets": "^1.9.3",
+    "@types/node": "^13.7.4",
     "axios": "^0.19.2"
   },
   "devDependencies": {
