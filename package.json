@@ -1,7 +1,7 @@
 {
-  "name": "jupyterlab_weather",
+  "name": "@rajkumaar23/jupyterlab_weather",
   "version": "0.1.0",
-  "description": "To display the weather for a city given by the user",
+  "description": "An extension to display the weather for a city given by the user",
   "keywords": [
     "jupyter",
     "jupyterlab",
@@ -31,7 +31,10 @@
     "watch": "tsc -w"
   },
   "dependencies": {
-    "@jupyterlab/application": "^1.0.0"
+    "@jupyterlab/application": "^1.2.1",
+    "@jupyterlab/apputils": "^1.2.1",
+    "@phosphor/widgets": "^1.9.3",
+    "axios": "^0.19.2"
   },
   "devDependencies": {
     "rimraf": "^2.6.1",
