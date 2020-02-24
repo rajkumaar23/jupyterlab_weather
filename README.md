@@ -1,4 +1,4 @@
-# jupyterlab_weather
+# Weather Jupyter Lab Extension
 
 ![Github Actions Status](https://github.com/rajkumaar23/jupyterlab_weather/workflows/Build/badge.svg)
 
@@ -12,7 +12,7 @@ To display the weather for a city given by the user
 ## Install
 
 ```bash
-jupyter labextension install jupyterlab_weather
+jupyter labextension install @rajkumaar23/jupyterlab_weather
 ```
 
 ## Contributing
@@ -50,6 +50,6 @@ jupyter lab --watch
 ### Uninstall
 
 ```bash
-jupyter labextension uninstall jupyterlab_weather
+jupyter labextension uninstall @rajkumaar23/jupyterlab_weather
 ```
 

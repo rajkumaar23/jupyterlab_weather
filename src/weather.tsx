@@ -7,7 +7,9 @@ const CounterComponent = () => {
     const [place, setPlace] = useState('');
     const [temp, setTemp] = useState(0);
     const divStyle = {
-        margin: 30
+        padding: '3rem',
+        backgroundColor: 'white',
+        height: '100%'
     };
 
     return (
@@ -34,7 +36,7 @@ const CounterComponent = () => {
             </button>
             {temp != 0 &&
             <h4>
-                The weather at {place} is {temp} C
+                The weather at {place} is {temp}&#176;C
             </h4>
             }
         </div>
